@@ -1,0 +1,1 @@
+Promise methods of output:this is first file of the tutorial
