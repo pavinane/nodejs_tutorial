@@ -1,22 +1,3 @@
-// const http = require('http');
-
-// const server = http.createServer((req,res) => {
-//     if(req.url ==="/") {
-//         res.write("Home Page");
-//         res.end()
-//     }
-//     if(req.url ==="/about") {
-//         res.write("about Page");
-//         res.end();
-//     }
-//     // res.write("Error Page")
-// })
-
-// server.listen(5000,() => {
-//     console.log("Server port is 5000");
-// })
-
-
 const EventEmitter = require('events');
 
 const customerEmitter =  new EventEmitter();
